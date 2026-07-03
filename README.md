@@ -27,20 +27,28 @@ I set out to engineer a complete, data-driven market intelligence solution to id
 
 ## 📁 Repository Structure
 ```text
-📁 market-intelligence-deficit-analysis
+📁 READYNEST_TASK_3
 │
 ├── 📁 data
-│   ├── master_market_analysis.csv
+│   ├── 📁 cleaned
+│   │   └── master_market_analysis.csv
+│   └── 📁 raw
+│
+├── 📁 outputs
+│   ├── 01_overall_digital_presence.png
+│   ├── 02_city_opportunity_zones.png
+│   ├── 03_category_digital_gap.png
+│   ├── market_metrics_summary.txt
 │   ├── top_10_established_opportunities.csv
 │   └── top_10_rising_stars_opportunities.csv
 │
-├── 📁 scripts
-│   └── run_market_analysis.py
-│
-├── 📁 dashboard
-│   └── market_analysis_dashboard.pbix
-│
 ├── 📁 presentation
-│   └── index.html
+│   ├── India_Hyperlocal_Market_Intelligence_Report.html
+│   └── powerbi_presentation.pbix
+│
+├── 📁 script
+│   ├── clean_data.py
+│   ├── merge_all_cities.py
+│   └── run_market_analysis.py
 │
 └── README.md
