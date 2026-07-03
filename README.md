@@ -43,7 +43,7 @@ I set out to engineer a complete, data-driven market intelligence solution to id
 │   └── top_10_rising_stars_opportunities.csv
 │
 ├── 📁 presentation
-│   ├── India_Hyperlocal_Market_Intelligence_Report.html
+│   ├── India_Hyperlocal_Market_Intelligence_Report.pptx
 │   └── powerbi_presentation.pbix
 │
 ├── 📁 script
